@@ -1,0 +1,14 @@
+{
+  "incorrect": "Login or password incorrect.",
+  "errorConfirmCode": "",
+  "exist": {
+    "email": "User with email {email} already exists."
+  },
+  "not_found": {
+    "by_id": "User with id {id} not found.",
+    "by_email": "User with email {email} not found."
+  },
+  "company": {
+    "not_set": "The user with id {userId} is not in the company with id {companyId}."
+  }
+}

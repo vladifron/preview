@@ -1,0 +1,14 @@
+{
+  "incorrect": "Логин или пароль не верны.",
+  "errorConfirmCode": "",
+  "exist": {
+    "email": "Пользователь с почтой {email} уже существует."
+  },
+  "not_found": {
+    "by_id": "Пользователь с id {id} не найден.",
+    "by_email": "Пользователь с почтой {email} не найден."
+  },
+  "company": {
+    "not_set": "Пользователь с id {userId} не состоит в компании с id {companyId}."
+  }
+}

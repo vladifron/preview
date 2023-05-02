@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "src",
+  "testRegex": ".*\\.spec\\.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverageFrom": ["**/*.(t|j)s"],
+  "coverageDirectory": "../coverage",
+  "testEnvironment": "node",
+  "moduleNameMapper": {
+    "@common/decorators": "<rootDir>/common/decorators",
+    "@common/handlers": "<rootDir>/common/handlers",
+    "@common/filters": "<rootDir>/common/filters",
+    "@common/errors": "<rootDir>/common/errors",
+    "@common/config": "<rootDir>/common/config",
+    "@common/consts": "<rootDir>/common/consts",
+    "@common/utils": "<rootDir>/common/utils",
+    "@common/types": "<rootDir>/common/types",
+    "@common/test": "<rootDir>/common/test",
+    "@modules/(.*)": "<rootDir>/modules/$1"
+  }
+}

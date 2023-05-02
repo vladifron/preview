@@ -1,0 +1,36 @@
+{
+  "name": "***",
+  "version": "***",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.ts --forceExit",
+    "test:e2e:watch": "jest --config ./test/jest-e2e.ts --watch",
+    "seed": "yarn sequelize-cli db:seed:all",
+    "seed:undo": "yarn sequelize-cli db:seed:undo",
+    "seed:create": "yarn sequelize-cli seed:generate",
+    "seed:undo:all": "yarn sequelize-cli db:seed:undo:all",
+    "migration": "yarn sequelize-cli db:migrate",
+    "migration:undo": "yarn sequelize-cli db:migrate:undo",
+    "migration:create": "yarn sequelize-cli migration:generate",
+    "migration:undo:all": "yarn sequelize-cli db:migrate:undo:all"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

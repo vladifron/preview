@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@*": ["./src/*"],
+      "@common/decorators": ["./src/common/decorators/"],
+      "@common/handlers": ["./src/common/handlers/"],
+      "@common/filters": ["./src/common/filters"],
+      "@common/errors": ["./src/common/errors/"],
+      "@common/config": ["./src/common/config/"],
+      "@common/consts": ["./src/common/consts/"],
+      "@common/utils": ["./src/common/utils/"],
+      "@common/types": ["./src/common/types/"],
+      "@common/test": ["./src/common/test/"],
+      "@modules": ["./src/modules/"],
+      "@tests/mocks": ["./test/common/"]
+    },
+  }
+}
